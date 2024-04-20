@@ -16,3 +16,7 @@ class BilibiliItem(scrapy.Item):
     title = scrapy.Field()
     audio = scrapy.Field()
     video = scrapy.Field()
+    
+class IyhdmmItem(scrapy.Item):
+    title = scrapy.Field()
+    video_ts = scrapy.Field()
