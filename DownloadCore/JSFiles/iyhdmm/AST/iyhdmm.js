@@ -1,3 +1,6 @@
+let window = global;
+let document = {}
+
 var _0xodX = 'jsjiami.com.v6'
   , _0xodX_ = ['‮_0xodX']
   , _0x2481 = [_0xodX, 'w5XDssKJcMKj', 'woo3GG8p', 'NEXCk8K2JQ==', 'wo8cKsKfHA==', 'w6olwr7CrVs=', 'w65Tw48+YA==', 'RFTCnsKBIcOOw4HDmMKn', 'wpLCtcKNC3xyTcOoeMOFWA==', 'wqHDlsKkaQU=', 'R0/CtMOfwr4=', 'w6p8w7bCmMKpRyrCnMOGVcOHwovCvnI=', 'wo1bwoJrBA==', 'wprCsFTDksKN', 'A8OCw754Yw==', 'HGbDpngJT09mXRtCw7pzYA==', 'w57Djn/DrQ==', 'emvDmFoM', 'w6JUw4QfTg==', 'w7JkwrzCul9ODMOywqrDuA==', 'woNnwo5iDcKW', 'HcO2wrJRw4c=', 'wofDj1ADwpvCh0hE', 'w6odwp/CtnI=', 'ecK+fFfDvQ==', 'LcOZwqkjw5E=', 'KQHDslMyXWnCiUE=', 'wrB3w7gkwp9UKw==', 'X8OJwpRdw6oUw5TDvHHDkMKKTiPDhw==', 'wqkqCUwhcg==', 'woltwpVqLQ==', 'Gm/CscOCDA==', 'w5FRwqPCt2E=', 'wqrDscKEaQs=', 'D3jCh8O9wqU=', 'woPClcObDg==', 'w6FLw7rDm8K9F1w=', 'worDvMOBJCY=', 'wopjw6HCvcK4', 'eD3DuWwZ', 'wrrCnWnDj8KX', 'wqVswop4wpcBwrPCncKXwpHDnMO+wppx', 'wrhjwq9KwpU=', 'w7lcYUvCsw==', 'P8Onwr8Ww4Q=', 'wrIBJkwU', 'w53Cgn8Jw4nCtwc=', 'woXCnlnDrsKN', 'Z8OsPWFv', 'wr7Cvm7DscKE', 'wr0WB8OMTQ==', 'HsKowpA2wq8=', 'V3vChsOkwqE=', 'W8KHR3IF', 'RQPDkGky', 'w6zDucKnBMOC', 'wq1fwo5Rw4E=', 'YG7Cn8Olwpc=', 'wpsmN0M8', 'wpZzwrlvw7w=', 'YXvCqcOpwpI=', 'wovDuMOAIQU=', 'McKXwosJwrA=', 'woB7wqJCw4A=', 'w49Mw7gJwqQ=', 'HcOfwpzCoz0=', 'wpHDsMOkFRw=', 'wqYmGXwtccKQ', 'w7wIwqYFIA==', 'TGPDv3gE', 'N8Olw6ZQZ8Kb', 'F2zDj8Omw5E=', 'FVjCgMOwwpEAw4k=', 'f3vCscOgwq/Dh8KpFC/DsQ==', 'wqXCu8KwAl4=', 'G1PCkA==', 'wqPDkizCm8Oe', 'G8OMwoNZw5c=', 'aMKQcncL', 'wrrCqsKZw6QN', 'wp46EsKzOw==', 'VkzDgUM3', 'MsOuw6xSa8K8Pg==', 'w713w7MzwpA=', 'cT/DhMO2GQ==', 'wqJJwptVLQ==', 'woBSw7fCqMKE', 'EsOHw7lkVg==', 'UQ7Dm8OQMA==', 'wpjCqMKxw7sZ', 'XMKWasKDw7I=', 'wqBBw4zCrcKs', 'wpBQwqppwpI=', 'woMVGmMS', 'w6Jpw6ATwpQ=', 'w6YKwqsDPcKsw4Q=', 'CsKmwoMYwoI=', 'wrt9wpFFwr4=', 'PcK5wqUlwpI=', 'wopCwohOBw==', 'K8OIwotPw6M=', 'w5pPw70bwrs=', 'w7nDrVvDjVA=', 'wqFHwrxbw6A=', 'wpx2w4jCksKT', 'woB7w4vCssKX', 'w41mw5AqwoM=', 'wq1Cwrt1wp4=', 'wolMwph9AA==', 'Y2bCo8Obw4w=', 'wqnCtlLDo8K7', 'WE8Pw4zDlA==', 'cQvDpUgySg==', 'FMOxwrk3w6E=', 'G1PCkMOQwoUqw4LDu8Oawo7CgSDDrXo=', 'w7PCoHoOw6U=', 'wpTCocODK8OZ', 'w7s3wrwDAw==', 'Jl7Cs8OZwr0=', 'csKYXkwc', 'dkjDp0gk', 'Im7CsMOuwqDDl8KaDGTDogvClTjDkitgw4TDoiQ7BAZhOnd9wqdNasOXTsKzWiMfwo54NcOd', 'K2zDoQ==', 'w7XDvMK+DMO5Fm4j', 'w6N1w7w2', 'IFfDiXHClw==', 'w6AywpnClnc=', 'wpc6Mkca', 'CsKlwq85wrI=', 'dcKhcVo4', 'w7AkwrPCkVEV', 'BXjDoHHCtQ==', 'woLClMKQEUU=', 'w55Ww7whwrE=', 'THnDlE0q', 'VcKkw5bCicKe', 'LcO7wrrCtzoKwpPClgYnQw==', 'REHCh8KFIMKBwos=', 'w615w7UAXQ==', 'w78YPsKsGTTCuw==', 'wq9Ow6BRMQ==', 'w4JPw4Anwqc=', 'f8Kcc2rDig==', 'w6zCtW8pw6g=', 'AlnDlU3CsXc=', 'w5zDhMKOVcKh', 'KsOVwrk3w44=', 'w5oNwqkNLA==', 'woDDuMOBEycwRg==', 'wrfCj8OrC8OA', 'wp8ZL0kO', 'HcO4w5pGUQ==', 'wpVYwrldw6I=', 'S8OZIW5H', 'MX7Cq8KHJQ==', 'wqjDrsONKQ0=', 'w5vDk8KxfcKf', 'SiLDgMOzLg==', 'R1PCnMOlwoA9w4rDrcKJ', 'bsKaaMKbw6Rmw45CWcK4w7w=', 'elHCmMO1wpo=', 'woVOwrVgDg==', 'w7jCpH4Zw6U=', 'wo3DinPDtXEvw6s=', 'wrl5w6fCj8KnQwfClg==', 'd2jCrcOAw4A=', 'wp3Cl8OlK8Oi', 'EVfCnMOBwoY6w4zDtsOkwpXCqjfDkG0=', 'NX3CvsKnAA==', 'woNfw4PCkcKF', 'fWzCrcO3w4ESCA==', 'wobDtsOFKyk=', 'wqh+w7bCl8Km', 'wp7DtMKmRyA=', 'TSjDocOBDw==', 'RUgDw7DDig==', 'JmHCksOxwoI=', 'w4HDq2TDkGo=', 'wrZKwpBSwow=', 'O2HDjELCsw==', 'wrnDj8Klbh0=', 'MEfDs8OYw5w=', 'Jn3Dnk3CrQ==', 'w7V2TU3ClA==', 'w6bDnMKfYsKQ', 'wonCmMKHElE=', 'wolNSFLCiUND', 'MsKVwqc1wrg=', 'VgfCpsOMwrE=', 'N8Kowr4Jwr7DncKp', 'GFTCksKlIcORw4E=', 'w4o6V2Zs', 'IsKVwpsTwpk=', 'woJ1wo56Pg==', 'wrQkFsK1HA==', 'ccKuVHQQ', 'wpIDFcK6Ow==', 'N2/Ch8Owwo0=', 'UifCvMOVwoI=', 'w7vDqcKiYMKB', 'CMOPwqNzw5Ysw7/DqX3DisKd', 'wpQnH30h', 'w4LDgMKOYsKgwqrCig==', 'w6xiw60Ewp4EYQ==', 'S8KPbVga', 'EcOtw7h2dA==', 'wqEHBsK2PQ==', 'FGwjsjiqaUerJmyi.cowmDA.rvhg6=='];
@@ -26,8 +29,8 @@ if (function(_0x4def3b, _0x412c0f, _0x5b12bb) {
 }(_0x2481, 0x14c, 0x14c00),
 _0x2481) {
     _0xodX_ = _0x2481['length'] ^ 0x14c;
-}
-;function _0x192c(_0xd4e6, _0x4dcbc5) {
+};
+function _0x192c(_0xd4e6, _0x4dcbc5) {
     _0xd4e6 = ~~'0x'['concat'](_0xd4e6['slice'](0x1));
     var _0x1150c4 = _0x2481[_0xd4e6];
     if (_0x192c['zHFJLi'] === undefined) {
@@ -615,5 +618,5 @@ function setPlayFrm(_0x17d66e) {
 ;_0xodX = 'jsjiami.com.v6';
 
 
-setPlayFrm("yh_playfram");
+console.log(setPlayFrm("yh_playfram"));
 yh_exp_playfull_set("i_bofang");

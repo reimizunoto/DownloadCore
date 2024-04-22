@@ -19,4 +19,4 @@ class BilibiliItem(scrapy.Item):
     
 class IyhdmmItem(scrapy.Item):
     title = scrapy.Field()
-    video_ts = scrapy.Field()
+    video = scrapy.Field()

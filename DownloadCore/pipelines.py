@@ -17,6 +17,8 @@ class DownloadcorePipeline:
             self._rrys(item)
         if spider.name == "bilibili":
             self._bilibili(item)
+        if spider.name == "iyhdmm":
+            self._iyhdmm(item)
             
     def _rrys(self, item):
         global count
@@ -55,3 +57,12 @@ class DownloadcorePipeline:
         os.remove(video_path)
         os.remove(audio_path)
         print("视频合并完成，大小为：", os.path.getsize(mp4_path)/1024/1024, "MB")
+    
+    def _iyhdmm(self, item):
+        global count
+        count = 1
+        with open(f"video/{item['title']}.mp4", "ab+") as f:
+            f.write(item["video"])
+            print(f"正在保存第{count}个ts文件：")
+            count += 1
+        print("视频下载完成，大小为：", sys.getsizeof(item["video_ts"])/1024/1024, "MB")
