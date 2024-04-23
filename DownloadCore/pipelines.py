@@ -25,6 +25,8 @@ class DownloadcorePipeline:
             self._huohutv(item)
         if spider.name == "tvyb10":
             self._tvyb10(item)
+        if spider.name == "bigee":
+            self._bigee(item)
             
     def _rrys(self, item):
         global count
@@ -97,3 +99,11 @@ class DownloadcorePipeline:
             f.write(item["video"])
             print(f'正在保存第{count}个ts文件')
             count += 1
+            
+    def _bigee(self, item):
+        novel_path = f'novel/{item["title"]}.txt'
+        # print(item['novel'])
+        print(f"开始保存小说{item['title']}...")
+        with open(novel_path, "w", encoding="utf-8") as f:
+            f.write(item["novel"])
+            print(f"小说{item['title']}保存完成，大小为：", os.path.getsize(novel_path)/1024/1024, "MB")

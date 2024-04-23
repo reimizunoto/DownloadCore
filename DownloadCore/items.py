@@ -33,3 +33,8 @@ class HuohutvItem(scrapy.Item):
 class Tvyb10Item(scrapy.Item):
     title = scrapy.Field()
     video = scrapy.Field()
+
+class BigeeItem(scrapy.Item):
+    title = scrapy.Field()
+    novel = scrapy.Field()
+    
