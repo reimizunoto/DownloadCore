@@ -21,6 +21,8 @@ class DownloadcorePipeline:
             self._iyhdmm(item)
         if spider.name == "netease_music":
             self._netease_music(item)
+        if spider.name == "huohutv":
+            self._huohutv(item)
             
     def _rrys(self, item):
         global count
@@ -76,3 +78,11 @@ class DownloadcorePipeline:
             f.write(item["music"])
             print(f"音乐{item['music_name']}保存完成，大小为：", sys.getsizeof(item["music"])/1024/1024, "MB")
         
+    def _huohutv(self, item):
+        global count
+        video_path = f'video/{item["title"]}.mp4'
+        print(f"开始保存视频{item['title']}...")
+        with open(video_path, "ab+") as f:
+            f.write(item["video"])
+            print(f'正在保存第{count}个ts文件')
+            count += 1

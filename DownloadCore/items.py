@@ -25,3 +25,7 @@ class NeteaseItem(scrapy.Item):
     music_name = scrapy.Field()
     music = scrapy.Field()
     music_id = scrapy.Field()
+    
+class HuohutvItem(scrapy.Item):
+    title = scrapy.Field()
+    video = scrapy.Field()

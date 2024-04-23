@@ -126,6 +126,11 @@ class HeadersMiddleware:
                 'Referer': 'https://music.163.com/'
             }
             request.headers.update(headers)
+        if spider.name == "huohutv":
+            headers = {
+                'Referer': 'https://www.huohutv.net/vod-type-id-4.html'
+            }
+            # request.headers.update(headers)
 
 # cookies middleware
 class CookiesMiddleware:
