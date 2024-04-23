@@ -29,3 +29,7 @@ class NeteaseItem(scrapy.Item):
 class HuohutvItem(scrapy.Item):
     title = scrapy.Field()
     video = scrapy.Field()
+    
+class Tvyb10Item(scrapy.Item):
+    title = scrapy.Field()
+    video = scrapy.Field()
