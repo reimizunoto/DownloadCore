@@ -19,6 +19,8 @@ class DownloadcorePipeline:
             self._bilibili(item)
         if spider.name == "iyhdmm":
             self._iyhdmm(item)
+        if spider.name == "netease_music":
+            self._netease_music(item)
             
     def _rrys(self, item):
         global count
@@ -66,3 +68,11 @@ class DownloadcorePipeline:
             print(f"正在保存第{count}个ts文件：")
             count += 1
         print("视频下载完成，大小为：", sys.getsizeof(item["video_ts"])/1024/1024, "MB")
+        
+    def _netease_music(self, item):
+        music_path = f'music/{item['music_name']}.m4a'
+        print(f"开始保存音乐{item['music_name']}...")
+        with open(music_path, "wb") as f:
+            f.write(item["music"])
+            print(f"音乐{item['music_name']}保存完成，大小为：", sys.getsizeof(item["music"])/1024/1024, "MB")
+        

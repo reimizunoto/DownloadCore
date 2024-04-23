@@ -117,6 +117,15 @@ class HeadersMiddleware:
                 "X-Requested-With": "XMLHttpRequest"
             }
             request.headers.update(headers)
+        if spider.name == "netease_music":
+            headers = {
+                'Accept': '*/*',
+                # 'Accept-Encoding': 'gzip, deflate, br, zstd',
+                # 'Accept-Language': 'zh-CN,zh;q=0.9',
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'Referer': 'https://music.163.com/'
+            }
+            request.headers.update(headers)
 
 # cookies middleware
 class CookiesMiddleware:
