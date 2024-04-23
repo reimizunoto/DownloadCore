@@ -2,6 +2,7 @@ import scrapy
 import re
 from html2text import html2text
 from DownloadCore.items import BigeeItem
+from lxml import etree
 
 class BigeeSpider(scrapy.Spider):
     name = "bigee"
@@ -9,18 +10,21 @@ class BigeeSpider(scrapy.Spider):
     start_urls = ["https://www.bigee.cc/book/4184"]
 
     def parse(self, response):
+        html = response.body.decode('utf-8')
+        
         title = response.xpath('//div[@class="info"]/h1/text()').extract_first()
-        title_detail = response.xpath('//div[@class="listmain"]/dl/dd/a/text()').extract()
-        novel_url = response.xpath('//div[@class="listmain"]/dl/dd/a/@href').extract()
+        title_detail = re.findall(r'html">(.*?)</a></dd>', html)
+        novel_url = re.findall(r'href ="(.*?)">', html)
         novel_info = {title+'-'+key:value for key, value in zip(title_detail, novel_url)}
         base_url = 'https://www.bigee.cc'
         item = BigeeItem()
         for key, value in novel_info.items():
             url = base_url + value
             item['title'] = key
-            # print(key, url)
+            print(key, url)
             yield scrapy.Request(url=url, callback=self.parse_novel, meta={'bigee_title': item})
-            break
+            # break
+            
             
     def parse_novel(self, response):
         item = response.meta['bigee_title']

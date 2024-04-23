@@ -11,6 +11,7 @@ __pycache__/
 *.avi
 *.mov
 *.txt
+*.m4a
 
 # Distribution / packaging
 .Python
